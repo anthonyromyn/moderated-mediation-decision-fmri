@@ -1,6 +1,3 @@
-# originally this script was at /media/nom/2TBstorage1/dualspin_fromBeast1/anthony_stbetas/Psy2002FinalProject/1.R
-
-# going through and figuring out what the mod med interactions say so we can write it up
 
 df <- read.csv("/media/nom/2TBstorage1/dualspin_fromBeast1/anthony_stbetas/dualSpin.csv", header=TRUE)
 ptplist <- read.csv("/media/nom/2TBstorage1/dualspin_fromBeast1/anthony_stbetas/ptplist.txt", header=FALSE)
