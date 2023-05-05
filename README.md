@@ -1,4 +1,4 @@
-Includes sample write-up and R code.
+Includes paper and example R code.
 
 
  
