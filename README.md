@@ -1,4 +1,4 @@
-Includes paper and example R analysis code.
+Example work from my time as a PhD student. Includes partially completed paper and R code.
 
 
  
