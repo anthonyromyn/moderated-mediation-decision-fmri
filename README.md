@@ -1,4 +1,4 @@
-Example work from my time as a PhD student. Includes partially completed paper and R code.
+Example modeling work from my time as a PhD student. Includes partially completed paper and R code.
 
 
  
