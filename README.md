@@ -21,15 +21,15 @@ This work was completed during my PhD and includes a partially finished paper an
 
 ```mermaid
 flowchart LR
-  subgraph Participant-level
-    vMPFC[vMPFC (moderator)]
+  subgraph Participant_level
+    vMPFC["vMPFC (moderator)"]
   end
 
-  subgraph Trial-level
-    EVs[selfEV & otherEV]
-    dlPFC[dlPFC (trial signal)]
-    NAcc[(NAcc)]
-    Decision{Decision}
+  subgraph Trial_level
+    EVs["selfEV & otherEV"]
+    dlPFC["dlPFC (trial signal)"]
+    NAcc["NAcc"]
+    Decision{"Decision"}
   end
 
   EVs --> dlPFC
