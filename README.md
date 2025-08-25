@@ -1,3 +1,4 @@
+
 # 🧠 Statistical Modeling of Decision-Making & fMRI
 
 A quick repo for trial-level decision-making with fMRI BOLD signals.  
@@ -14,6 +15,31 @@ This work was completed during my PhD and includes a partially finished paper an
 - 🧩 **Mediator:** **`NAcc`** predicted from the same inputs.  
 - 🧱 **SEM layer:** **lavaan** tests (moderated) mediation using centered variables and interaction terms.  
 - 📄 **Paper:** the PDF documents the design and rationale.
+
+---
+
+## 🔑 Central finding (plain English)
+
+- ❤️‍🩹 **Prosocial choice via upregulating “Other,” not downregulating “Self.”**  
+  Patterns in the models were **more consistent with increased sensitivity to the *other* person’s expected value** (and its impact along the dlPFC → NAcc → Decision pathway) **than with simply suppressing self-related value**. Put simply: when *Other EV* was high, neural signals and choice tipped toward **taking** in ways that suggested an *upshift* of other-oriented value processing.
+
+> This interpretation comes from the trial-level mixed-effects, the NAcc mediator model, and SEM-based (moderated) indirect effects with vMPFC as a moderator.
+
+---
+
+## 🧪 Why this was notable at the time (methods)
+
+- 🧱 **Single-trial beta estimation (“beta-series”)**  
+  Trial-wise ROI estimates enabled **within-person** analyses of how neural variability tracked EVs and choices—still rarer then than subject-level GLMs averaged over events.
+
+- 🧬 **Mixed-effects modeling of fMRI at the trial level**  
+  Instead of relying solely on a subject-level GLM → group second level, the pipeline used **GLMM/LMM** with **random slopes** for EV and neural terms, explicitly modeling **trials nested in participant/run**.
+
+- 🔀 **Orthogonalization of EV regressors (Self vs Other)**  
+  The *self* and *other* expected value signals were constructed to be **orthogonal**, reducing collinearity and helping isolate each component’s unique contribution to behavior and neural responses.
+
+- 🧩 **Moderated mediation across neural pathways**  
+  The analysis combined the mixed-effects backbone with **SEM** to probe **indirect effects (EV → NAcc → Decision)** **conditioned by vMPFC**, using centered variables and explicit interaction terms with bootstrap inference.
 
 ---
 
